@@ -16,11 +16,17 @@
     <!-- CSS -->
 
     <link rel="stylesheet" href="./css/styles.css" />
-  </head>
 
+    <!-- NORMALIZE -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+  </head>
   <body>
     <!-- HEADER -->
     <header class="page-header">
+      <div></div>
       <!-- NAVIGATION -->
       <nav>
         <a class="logo-link" href="/index.html">
@@ -29,10 +35,10 @@
         </a>
         <ul class="nav-menu list">
           <li>
-            <a class="page current" href="./index.html">Studio</a>
+            <a class="page" href="./index.html">Studio</a>
           </li>
           <li>
-            <a class="page" href="">Portfolio</a>
+            <a class="page current" href="">Portfolio</a>
           </li>
           <li>
             <a class="page" href="">Contacts</a>
@@ -65,7 +71,7 @@
         </ul>
 
         <ul class="project list">
-          <li>
+          <li class="project-item">
             <a href="" class="project">
               <img
                 src="./images/portfolio-img-1.jpg"
@@ -73,11 +79,14 @@
                 width="370"
                 height="294"
               />
-              <h2 class="name">Banking App Interface Concept</h2>
-              <p class="type">App</p>
+              <div class="project-description">
+                <h2 class="name">Banking App Interface Concept</h2>
+                <p class="type">App</p>
+              </div>
+
             </a>
           </li>
-          <li>
+          <li class="project-item">
             <a href="" class="project">
               <img
                 src="./images/portfolio-img-2.jpg"
@@ -85,8 +94,11 @@
                 width="370"
                 height="294"
               />
-              <h2 class="name">Cashless Payment</h2>
-              <p class="type">Marketing</p>
+              <div class="project-description">
+                <h2 class="name">Cashless Payment</h2>
+                <p class="type">Marketing</p>
+              </div>
+
             </a>
           </li>
           <li>
@@ -97,11 +109,14 @@
                 width="370"
                 height="294"
               />
-              <h2 class="name">Meditation App</h2>
-              <p class="type">App</p>
+              <div class="project-description">
+                <h2 class="name">Meditation App</h2>
+                <p class="type">App</p>
+              </div>
+
             </a>
           </li>
-          <li>
+          <li class="porject-item">
             <a href="" class="project">
               <img
                 src="./images/portfolio-img-4.jpg"
@@ -109,11 +124,13 @@
                 width="370"
                 height="294"
               />
-              <h2 class="name">Taxi Service</h2>
-              <p class="type">Marketing</p>
+              <div class="project-description">
+                <h2 class="name">Taxi Service</h2>
+                <p class="type">Marketing</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="project-item">
             <a href="" class="project">
               <img
                 src="./images/portfolio-img-5.jpg"
@@ -121,11 +138,13 @@
                 width="370"
                 height="294"
               />
-              <h2 class="name">Screen Illustrations</h2>
-              <p class="type">Design</p>
+              <div class="project-description">
+                <h2 class="name">Screen Illustrations</h2>
+                <p class="type">Design</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="project-item">
             <a href="" class="project">
               <img
                 src="./images/portfolio-img-6.jpg"
@@ -133,11 +152,13 @@
                 width="370"
                 height="294"
               />
-              <h2 class="name">Online Courses</h2>
-              <p class="type">Marketing</p>
+              <div class="project-description">
+                <h2 class="name">Online Courses</h2>
+                <p class="type">Marketing</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="project-item">
             <a href="" class="project">
               <img
                 src="./images/portfolio-img-7.jpg"
@@ -145,11 +166,13 @@
                 width="370"
                 height="294"
               />
-              <h2 class="name">Instagram Strories Concept</h2>
-              <p class="type">Design</p>
+              <div class="project-description">
+                <h2 class="name">Instagram Strories Concept</h2>
+                <p class="type">Design</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="project-item">
             <a href="" class="project">
               <img
                 src="./images/portfolio-img-8.jpg"
@@ -157,11 +180,14 @@
                 width="370"
                 height="294"
               />
-              <h2 class="name">Organic Food</h2>
-              <p class="type">Web Site</p>
+              <div class="project-description">
+                <h2 class="name">Organic Food</h2>
+                <p class="type">Web Site</p>
+              </div>
+
             </a>
           </li>
-          <li>
+          <li class="project-item">
             <a href="" class="project">
               <img
                 src="./images/portfolio-img-9.jpg"
@@ -169,8 +195,10 @@
                 width="370"
                 height="294"
               />
-              <h2 class="name">Fresh Coffee</h2>
-              <p class="type">Web Site</p>
+              <div class="project-description">
+                <h2 class="name">Fresh Coffee</h2>
+                <p class="type">Web Site</p>
+              </div>
             </a>
           </li>
         </ul>
@@ -179,8 +207,8 @@
 
     <!-- FOOTER -->
     <footer class="page-footer bg-footer">
-      <div>
-        <a class="logo-link" href="">
+      <div class="container footer-container">
+        <a class="logo-link" href="./index.html">
           <span class="logo">WEB</span>
           <span class="studio-footer">STUDIO</span>
         </a>
