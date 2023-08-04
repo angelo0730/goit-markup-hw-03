@@ -272,38 +272,6 @@ justify-content: space-between;
 .card-content {
   padding: 32px 0;
 }
-
-/* CSS Positioning of Portfolio */
-
-.filter {
-  margin-bottom: 72px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-}
-
-.project {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 48px 24px;
-  justify-content: center;
-  align-items: center;
-}
-
-.project-description {
-  padding: 32px 16px;
-  border: 1px solid var(--cornflower, #e7e9fc);
-  border-top: none;
-}
-
-.section-title {
-  text-align: center;
-  color: var(--navyblue);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.17;
-}
 .benefits .title {
   font-size: 20px;
   font-weight: 500;
@@ -370,4 +338,37 @@ letter-spacing: 0.04em;
   color: var(--slatecolor);
   font-weight: 400;
   line-height: 1.87;
+}
+
+
+/* CSS Positioning of Portfolio */
+
+.filter {
+  margin-bottom: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-description {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  border-top: none;
+}
+
+.section-title {
+  text-align: center;
+  color: var(--navyblue);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
 }
