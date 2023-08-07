@@ -125,6 +125,14 @@ ul {
   gap: 24px;
   text-align: center;
 }
+
+.card-content h3 {
+  margin-bottom: 8px;
+}
+
+.card-content {
+  padding: 32px 0;
+}
 .team-item {
   border-radius: 0px 0px 4px 4px;
   background: var(--whitecolor, #fff);
@@ -240,4 +248,25 @@ ul {
 
 .project {
   text-decoration: none;
+}
+.filter {
+  margin-bottom: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-description {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  border-top: none;
 }
