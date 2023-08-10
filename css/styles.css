@@ -112,10 +112,9 @@ ul {
 }
 .benefits-list {
   display: flex;
-  justify-content: space-between;
   gap: 20px;
-  margin-left: 20px;
-}
+ } 
+ 
 .what-we-do-list {
   display: flex;
   justify-content: space-between;

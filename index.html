@@ -7,6 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
 
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <!-- FONTS -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
@@ -23,71 +32,72 @@
     <!-- HEADER -->
     <header class="page-header">
       <!-- NAVIGATION -->
-      <div class="container page-header-container">
-        <nav>
+      <div class="container menu">
+        <nav class="navigation">
           <a class="logo-link" href="/index.html">
             <span class="logo">WEB</span>
             <span class="studio">STUDIO</span>
           </a>
           <ul class="nav-menu list">
-            <li>
-              <a class="page current" href="">Studio</a>
+            <li class="item">
+              <a class="page current link" href="">Studio</a>
             </li>
-            <li>
-              <a class="page" href="./portfolio.html">Portfolio</a>
+            <li class="item">
+              <a class="page link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li>
-              <a class="page" href="">Contacts</a>
+            <li class="item">
+              <a class="page link" href="">Contacts</a>
             </li>
           </ul>
-  
+
           <ul class="contacts-menu list">
-            <li>
-              <a class="item" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+            <li class="item">
+              <a class="contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li>
-              <a class="item" href="tel:++110001111111">+11 000 111 11 11</a>
+            <li class="item">
+              <a class="contacts link" href="tel:++110001111111">+11 000 111 11 11</a>
             </li>
           </ul>
         </nav>
-      </header>
+      </div>
+  </header>
   
       <!-- MAIN -->
       <main>
         <!-- HERO SECTION -->
         <section class="hero bg-hero">
-          <h1 class="hero-title">Effective Solutions<br />for Your Business</h1>
-          <button class="button primary">Order Service</button>
+          <div class="container">
+            <h1 class="hero-title">Effective Solutions<br />for Your Business</h1>
+            <button class="button primary">Order Service</button>
+          </div>
         </section>
   
         <!-- SECTION -->
         <section class="section">
           <div class="container">
             <ul class="benefits list">
-              <li class="benefits-item">
+              <li class="item">
                 <h3 class="title">Strategy</h3>
                 <p class="description">
                   Our goal is to identify the business<br />problem to walk away
                   with the<br />perfect and creative solution.
                 </p>
               </li>
-              <li class="benefits-item">
+              <li class="item">
                 <h3 class="title">Punctuality</h3>
                 <p class="description">
                   Bring the key message to the<br />brand's audience for the best
                   price<br />within the shortest possible time.
                 </p>
               </li>
-              <li class="benefits-item">
+              <li class="item">
                 <h3 class="title">Diligence</h3>
                 <p class="description">
                   Research and confirm brands that<br />present the strongest
                   digital<br />growth opportunities and minimize risk
                 </p>
               </li>
-              <li class="benefits-item">
+              <li class="item">
                 <h3 class="title">Technologies</h3>
                 <p class="description">
                   Design practice focused on digital<br />experiences. We bring
@@ -97,15 +107,14 @@
             </ul>
           </div>
         </section>
-      </div>
-      
+
 
       <!--WHAT WE DO -->
-      <section class="section">
+      <section class="section no-top-padding">
         <div class="container">
           <h2 class="section-title">What Are We Doing</h2>
           <ul class="what-we-do list">
-            <li class="what-we-do-item">
+            <li class="item">
               <img
                 src="./images/studio-img-1.jpg"
                 alt="studio-img-1"
@@ -113,7 +122,7 @@
                 height="294"
               />
             </li>
-            <li class="what-we-do-item">
+            <li class="item">
               <img
                 src="./images/studio-img-2.jpg"
                 alt="studio-img-2"
@@ -121,7 +130,7 @@
                 height="294"
               />
             </li>
-            <li class="what-we-do-item">
+            <li class="item">
               <img
                 src="./images/studio-img-3.jpg"
                 alt="studio-img-3"
@@ -138,7 +147,7 @@
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team list">
-            <li>
+            <li class="item">
               <img
                 src="./images/studio-img-4.jpg"
                 alt="studio-img-4"
@@ -150,7 +159,7 @@
                 <p class="position">Product Designer</p>
               </div>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/studio-img-5.jpg"
                 alt="studio-img-5"
@@ -162,7 +171,7 @@
                 <p class="position">Frontend Developer</p>
               </div>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/studio-img-6.jpg"
                 alt="studio-img-6"
@@ -176,7 +185,7 @@
 
             </li>
 
-            <li>
+            <li class="item">
               <img
                 src="./images/studio-img-7.jpg"
                 alt="studio-img-7"
@@ -194,7 +203,7 @@
     </main>
     <!-- FOOTER -->
     <footer class="page-footer bg-footer">
-      <div>
+      <div class container>
         <a class="logo-link" href="">
           <span class="logo">WEB</span>
           <span class="studio-footer">STUDIO</span>
