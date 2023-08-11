@@ -110,15 +110,19 @@ ul {
 .button.primary:focus {
   background-color: var(--iriscolor);
 }
-.benefits-list {
-  display: flex;
-  gap: 20px;
+.container .benefits-list {
+  width: 1128px;
+  height: 116px;
+  flex-shrink: 0;
  } 
- 
+.section .no-top-padding{
+padding-top: 0;
+}
 .what-we-do-list {
   display: flex;
   justify-content: space-between;
 }
+
 .team-list {
   display: flex;
   gap: 24px;
@@ -248,7 +252,7 @@ ul {
 .project {
   text-decoration: none;
 }
-.filter {
+.filter-button{
   margin-bottom: 72px;
   display: flex;
   justify-content: center;
@@ -256,7 +260,7 @@ ul {
   gap: 24px;
 }
 
-.project {
+.project-card {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
@@ -264,7 +268,7 @@ ul {
   align-items: center;
 }
 
-.project-description {
+.substrate {
   padding: 32px 16px;
   border: 1px solid var(--cornflower, #e7e9fc);
   border-top: none;
