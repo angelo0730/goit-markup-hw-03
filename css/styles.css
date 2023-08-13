@@ -77,18 +77,6 @@ color: inherit;
 .page-header {
   border-bottom: 1px solid var(--cornflower);
 }
-.nav-menu {
-  display: flex;
-  gap: 40px;
-  margin-left: 76px;
-  display: inline-flex;
-}
-.contacts-menu {
-  display: flex;
-  gap: 40px;
-  margin-left: 76px;
-  display: inline-flex;
-}
 /* checked */
 .logo-link {
   text-decoration: none;
